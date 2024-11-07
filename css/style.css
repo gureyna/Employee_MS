@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8rem;
+}
+/* header section   */
+header {
+  background-color: #102387;
+  width: 100%;
+  color: #ffffff;
+  min-height: 600px;
+}
+.header-nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+.header-nav h3 {
+  color: #fff;
+}
+.header-nav ul {
+  display: flex;
+  list-style: none;
+}
+.header-nav li {
+  margin-left: 30px;
+}
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+.title .heading {
+  text-transform: uppercase;
+}
+#about {
+  background-color: #fff;
+  text-decoration: none;
+  color: blue;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/*  add employee page  */
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #156b7d;
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+  padding: 20px;
+}
